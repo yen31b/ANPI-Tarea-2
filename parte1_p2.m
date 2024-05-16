@@ -6,7 +6,7 @@ function parte1_p2
   m=242;
   b=ones(m,1);
   tol=1e-5;
-  iterMax=5;
+  iterMax=1000;
   A=tridiagonal(p,q,m);
   %llamada al metodo de jacobi con los parametros definidos
   xk = metodo_jacobi(A,b,x0,tol,@criterio_parada,iterMax)

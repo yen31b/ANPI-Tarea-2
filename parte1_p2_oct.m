@@ -1,4 +1,4 @@
-function parte1_p2
+function parte1_p2_oct
   clc; clear;
   %parametros
   x0 = zeros(242,1);
